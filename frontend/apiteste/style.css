@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(157, 186, 170, 0.57);
+  font-family: "Barlow", serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.box {
+  background-color: rgba(157, 186, 170, 0.9);
+  padding: 100px;
+  box-shadow: 10px 5px 5px gray;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px; /* Espaço entre elementos dentro da .box */
+}
+
+h1 {
+  color: rgb(0, 0, 0);
+  font-size: 36px;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Espaço entre os campos do formulário */
+  align-items: stretch; /* Garante que os itens tenham a mesma largura */
+}
+
+label {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+input {
+  width: 100%; /* Ocupa toda a largura do formulário */
+  height: 35px;
+  border-radius: 8px;
+  padding: 0 10px;
+  border: 1px solid gray;
+}
+
+button {
+  margin-top: 20px;
+  width: 100%;
+  height: 40px;
+  border-radius: 8px;
+  background-color: #fff;
+  border: 1px solid gray;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: rgba(200, 200, 200, 0.9);
+}
+.form-group{
+  display: inline
+}
+footer{
+  text-align: right;
+  margin: 1px;
+  
+}
